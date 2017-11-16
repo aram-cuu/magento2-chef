@@ -12,10 +12,9 @@
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[magento2]"
   ],
   "env_run_lists": {
-
+    "staging" => ['recipe[magento2]']
   }
 }
 
